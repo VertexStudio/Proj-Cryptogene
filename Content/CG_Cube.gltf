@@ -1,0 +1,360 @@
+{
+	"asset":
+	{
+		"version": "2.0",
+		"generator": "Unreal Engine 4.27.0 glTF Exporter 1.0.6"
+	},
+	"scene": 0,
+	"accessors": [
+		{
+			"bufferView": 0,
+			"count": 2088,
+			"type": "SCALAR",
+			"componentType": 5123
+		},
+		{
+			"bufferView": 1,
+			"count": 1432,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ -1,
+				-1.00000012,
+				-1.00000012
+			],
+			"max": [ 1,
+				1.00000012,
+				1.00000012
+			]
+		},
+		{
+			"bufferView": 2,
+			"count": 1432,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 3,
+			"count": 1432,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 4,
+			"count": 1432,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 5,
+			"count": 1432,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 6,
+			"count": 36,
+			"type": "SCALAR",
+			"componentType": 5121
+		},
+		{
+			"bufferView": 7,
+			"count": 24,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ -0.969999969,
+				-0.970000148,
+				-0.970000148
+			],
+			"max": [ 0.969999969,
+				0.970000148,
+				0.970000148
+			]
+		},
+		{
+			"bufferView": 8,
+			"count": 24,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 9,
+			"count": 24,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 10,
+			"count": 24,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 11,
+			"count": 24,
+			"type": "VEC2",
+			"componentType": 5126
+		}
+	],
+	"buffers": [
+		{
+			"uri": "CG_Cube.bin",
+			"byteLength": 85748
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 4176,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 17184,
+			"byteOffset": 4176,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 17184,
+			"byteOffset": 21360,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 22912,
+			"byteOffset": 38544,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 11456,
+			"byteOffset": 61456,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 11456,
+			"byteOffset": 72912,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 36,
+			"byteOffset": 84368,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 288,
+			"byteOffset": 84404,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 288,
+			"byteOffset": 84692,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 384,
+			"byteOffset": 84980,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 192,
+			"byteOffset": 85364,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 192,
+			"byteOffset": 85556,
+			"target": 34962
+		}
+	],
+	"images": [
+		{
+			"uri": "M_CGCube_CG_Cube_BaseColor.png"
+		},
+		{
+			"uri": "M_CGCube_CG_Cube_Emissive.png"
+		},
+		{
+			"uri": "M_Icon_8_Inst3_CG_Cube_BaseColor.png"
+		},
+		{
+			"uri": "M_Icon_8_Inst3_CG_Cube_Emissive.png"
+		},
+		{
+			"uri": "CG_Cube_M_Cube_OcclusionRoughnessMetallic.png"
+		},
+		{
+			"uri": "CG_Cube_M_Cube_Normal.png"
+		}
+	],
+	"materials": [
+		{
+			"name": "M_CGCube_CG_Cube",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 0,
+					"texCoord": 1
+				},
+				"metallicRoughnessTexture":
+				{
+					"index": 1
+				}
+			},
+			"normalTexture":
+			{
+				"index": 3
+			},
+			"occlusionTexture":
+			{
+				"index": 1
+			},
+			"emissiveTexture":
+			{
+				"index": 2,
+				"texCoord": 1
+			},
+			"emissiveFactor": [ 0.510253906,
+				0.510253906,
+				0.510253906
+			]
+		},
+		{
+			"name": "M_Icon_8_Inst3_CG_Cube",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 4,
+					"texCoord": 1
+				},
+				"metallicFactor": 0.5,
+				"roughnessFactor": 0.0799999982
+			},
+			"emissiveTexture":
+			{
+				"index": 5,
+				"texCoord": 1
+			},
+			"emissiveFactor": [ 4.46875,
+				4.46875,
+				4.46875
+			],
+			"alphaMode": "BLEND",
+			"doubleSided": true
+		}
+	],
+	"meshes": [
+		{
+			"name": "CG_Cube",
+			"primitives": [
+				{
+					"attributes":
+					{
+						"POSITION": 1,
+						"NORMAL": 2,
+						"TANGENT": 3,
+						"TEXCOORD_0": 4,
+						"TEXCOORD_1": 5
+					},
+					"indices": 0,
+					"material": 0
+				},
+				{
+					"attributes":
+					{
+						"POSITION": 7,
+						"NORMAL": 8,
+						"TANGENT": 9,
+						"TEXCOORD_0": 10,
+						"TEXCOORD_1": 11
+					},
+					"indices": 6,
+					"material": 1
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"mesh": 0
+		}
+	],
+	"samplers": [
+		{
+			"name": "M_CGCube_CG_Cube_BaseColor",
+			"minFilter": 9987,
+			"magFilter": 9729
+		},
+		{
+			"name": "M_CGCube_CG_Cube_Emissive",
+			"minFilter": 9987,
+			"magFilter": 9729
+		},
+		{
+			"name": "M_Icon_8_Inst3_CG_Cube_BaseColor",
+			"minFilter": 9987,
+			"magFilter": 9729
+		},
+		{
+			"name": "M_Icon_8_Inst3_CG_Cube_Emissive",
+			"minFilter": 9987,
+			"magFilter": 9729
+		},
+		{
+			"name": "CG_Cube_M_Cube_OcclusionRoughnessMetallic",
+			"minFilter": 9987,
+			"magFilter": 9729
+		},
+		{
+			"name": "CG_Cube_M_Cube_Normal",
+			"minFilter": 9987,
+			"magFilter": 9729
+		}
+	],
+	"scenes": [
+		{
+			"nodes": [ 0 ]
+		}
+	],
+	"textures": [
+		{
+			"name": "M_CGCube_CG_Cube_BaseColor",
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"name": "CG_Cube_M_Cube_OcclusionRoughnessMetallic",
+			"sampler": 4,
+			"source": 4
+		},
+		{
+			"name": "M_CGCube_CG_Cube_Emissive",
+			"sampler": 1,
+			"source": 1
+		},
+		{
+			"name": "CG_Cube_M_Cube_Normal",
+			"sampler": 5,
+			"source": 5
+		},
+		{
+			"name": "M_Icon_8_Inst3_CG_Cube_BaseColor",
+			"sampler": 2,
+			"source": 2
+		},
+		{
+			"name": "M_Icon_8_Inst3_CG_Cube_Emissive",
+			"sampler": 3,
+			"source": 3
+		}
+	]
+}
